@@ -1,0 +1,38 @@
+<!-- res/layout/dialog_add_restaurant.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Phone"
+        android:maxLength="11" />
+
+    <EditText
+        android:id="@+id/etRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rating (1-5)"
+        android:inputType="number"
+        android:maxLines="1"
+        android:maxLength="1" />
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etName" type="id" />
+    <item name="etLocation" type="id" />
+    <item name="etPhone" type="id" />
+    <item name="etRating" type="id" />
+    <item name="btnAdd" type="id" />
+    <item name="additem" type="id" />
+    <item name="btnFilter" type="id" />
+    <item name="rvrestaurant" type="id" />
+    <item name="etLocationFilter" type="id" />
+    <item name="etRatingFilter" type="id" />
+</resources>
